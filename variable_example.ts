@@ -1,6 +1,6 @@
 		
 // variable declaration
-let myVariable:string = 'something';
+let myVariable:string = 'this is my variable value';
 
 // printing out variable
 console.log('variable: ' + myVariable);	
