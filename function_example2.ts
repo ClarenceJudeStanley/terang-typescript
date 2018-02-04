@@ -6,6 +6,7 @@ function getMessage(): string {
     return message;
 }
 
+// calling function
 let myVariable: string = getMessage();
 
 document.body.innerHTML = myVariable;
