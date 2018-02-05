@@ -3,6 +3,7 @@
 function calculate():void {
 	// function body
 	let someArray:number[] = [1, 2, 3];
+
 	for (let entry of someArray) {
 		console.log(entry); 
 	}

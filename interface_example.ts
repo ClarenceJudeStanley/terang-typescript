@@ -3,7 +3,7 @@ interface Person {
     name: string;
     age: number;
 }
-// instantiating an object
+// implementing interface
 let ahmad: Person = {"name": "Ahmad", "age": 100};
 
 console.log("ahmad :  " + ahmad);
