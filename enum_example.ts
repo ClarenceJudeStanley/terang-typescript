@@ -1,4 +1,4 @@
-// enum declaration
+// enum definition
 enum Brand {
     PROTON,
     HONDA,
@@ -6,8 +6,8 @@ enum Brand {
     SUZUKI
 }
 
-let myBrand: Brand;
-myBrand = Brand.HONDA;
+// declared and assigned
+let myBrand: Brand = Brand.HONDA;
 
 // calling function
 document.body.innerHTML = myBrand.toString();
